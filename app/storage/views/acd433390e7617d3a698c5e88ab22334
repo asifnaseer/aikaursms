@@ -1,0 +1,3 @@
+<h1>Hi, <?php echo $first_name." ".$last_name; ?>!</h1>
+<p><a href="<?php echo url('/user/set-password/'.$code); ?>">Click to reset your password</a></p>
+ 

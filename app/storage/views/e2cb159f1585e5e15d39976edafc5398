@@ -1,0 +1,218 @@
+
+<?php $__env->startSection('form-starter'); ?>
+    <?php echo Form::open(array('url' => $action_url,'id'=>'employee_add_form', 'class' => 'form-horizontal')); ?>
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('form-stoper'); ?>
+    <?php echo Form::close(); ?>
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('modal-header-content'); ?>
+    <h3><?php echo $heading; ?></h3>
+<?php $__env->stopSection(); ?>
+
+
+<?php $__env->startSection('modal-body-content'); ?>
+    <div class="row-fluid"> 
+            <div class="tabbable tabbable-custom ">
+                <!-- Only required for left/right tabs -->
+                <ul class="nav nav-tabs ">
+                        <li class="active"><a data-toggle="tab" href="#tab_personal_info">Personal</a></li>
+                        <li class=""><a data-toggle="tab" href="#tab_contact_info">Contact Information</a></li>
+                        <li class=""><a data-toggle="tab" href="#tab_address">Address</a></li>
+                </ul>
+                <div class="tab-content">
+                        <div class="alert alert-error hide">
+                                <button class="close" data-dismiss="alert"></button>
+                                You have some form errors. Please check each form tab for correction.
+                        </div>
+                        <div class="alert alert-success hide">
+                                <button class="close" data-dismiss="alert"></button>
+                                Your form posted successful!
+                        </div>
+                        <div id="tab_personal_info" class="tab-pane active" style="min-height: 124px;">
+                                <div class="control-group">
+                                        <?php echo Form::label('first_name', 'First Name', array('class' => 'control-label')); ?>
+                                        <div class="controls">
+                                                <?php echo Form::text('first_name', $data['first_name'], array('id' => 'first_name', 'placeholder' => 'First Name', 'class' => 'm-wrap medium' )); ?>
+                                        </div>
+                                </div>
+
+                                <div class="control-group">
+                                        <?php echo Form::label('last_name', 'Last Name', array('class' => 'control-label')); ?>
+                                        <div class="controls">
+                                                <?php echo Form::text('last_name', $data['last_name'], array('id' => 'last_name', 'placeholder' => 'Last Name', 'class' => 'm-wrap medium' )); ?>
+                                        </div>
+                                </div>
+
+                                <div class="control-group">
+                                        <?php echo Form::label('email', 'Email', array('class' => 'control-label')); ?>
+                                        <div class="controls">
+                                                <?php echo Form::text('email', $data['email'], array('id' => 'email', 'placeholder' => 'Email ID', 'class' => 'm-wrap medium', $email_read_only => $email_read_only )); ?>
+                                        </div>
+                                </div>
+                                <!--
+                                <div class="control-group">
+                                        <?php echo Form::label('emp_image', 'Image', array('class' => 'control-label')); ?>
+                                        <div class="controls">
+                                                <?php echo Form::file('emp_image', array('id' => 'emp_image')); ?>
+                                        </div>
+                                </div>
+                                -->
+                                <div class="control-group">
+                                        <?php echo Form::label('emp_image', 'Image', array('class' => 'control-label')); ?>
+                                        <div class="controls">
+                                                <div class="fileupload fileupload-new" data-provides="fileupload">
+                                                        <div class="fileupload-new thumbnail" style="width: 200px; height: 150px;">
+                                                                <img src="<?php echo $data['emp_image']; ?>"  style="width: 200px; height: 150px;" alt="" />
+                                                        </div>
+                                                        <div class="fileupload-preview fileupload-exists thumbnail" style="max-width: 200px; max-height: 150px; line-height: 20px;"></div>
+                                                        <div>
+                                                                <span class="btn btn-file">
+                                                                    <span class="fileupload-new">Select image</span>
+                                                                    <span class="fileupload-exists">Change</span>
+                                                                    <?php echo Form::file('emp_image', array('id' => 'emp_image', 'class' => 'default')); ?>
+                                                                </span>
+                                                                <?php /*  <a href="#" class="btn fileupload-exists" data-dismiss="fileupload">Remove</a>  */ ?>
+                                                        </div>
+                                                </div>
+                                                <span class="label label-important">NOTE!</span>
+                                                <span>
+                                                Use jpeg and png images Only
+                                                </span>
+                                        </div>
+                                </div>
+                               
+                        </div>
+                        <div id="tab_contact_info" class="tab-pane">
+                                <div class="control-group">
+                                        <?php echo Form::label('contact_telephone', 'Land Line Number', array('class' => 'control-label')); ?>
+                                        <div class="controls">
+                                                <?php echo Form::text('contact_telephone', $data['contact_telephone'], array('id' => 'contact_telephone', 'placeholder' => 'Land Line Number', 'class' => 'm-wrap medium' )); ?>
+                                        </div>
+                                </div>
+                            
+                                <div class="control-group">
+                                        <?php echo Form::label('contact_mobile', 'Cell Number', array('class' => 'control-label')); ?>
+                                        <div class="controls">
+                                                <?php echo Form::text('contact_mobile', $data['contact_mobile'], array('id' => 'contact_mobile', 'placeholder' => 'Cell Number', 'class' => 'm-wrap medium' )); ?>
+                                        </div>
+                                </div>
+                                
+                                <div class="control-group">
+                                        <?php echo Form::label('contact_email', 'Email', array('class' => 'control-label')); ?>
+                                        <div class="controls">
+                                                <?php echo Form::text('contact_email', $data['contact_email'], array('id' => 'contact_email', 'placeholder' => 'Email', 'class' => 'm-wrap medium' )); ?>
+                                        </div>
+                                </div>
+                                
+                        </div>
+                        <div id="tab_address" class="tab-pane">
+                                <div class="control-group">
+                                        <?php echo Form::label('physical_address_line1', 'Line1', array('class' => 'control-label')); ?>
+                                        <div class="controls">
+                                                <?php echo Form::text('physical_address_line1', $data['physical_address_line1'], array('id' => 'physical_address_line1', 'placeholder' => 'Address Line1', 'class' => 'm-wrap medium' )); ?>
+                                        </div>
+                                </div>
+                                <div class="control-group">
+                                        <?php echo Form::label('physical_address_line2', 'Line2', array('class' => 'control-label')); ?>
+                                        <div class="controls">
+                                                <?php echo Form::text('physical_address_line2', $data['physical_address_line2'], array('id' => 'physical_address_line2', 'placeholder' => 'Address Line2', 'class' => 'm-wrap medium' )); ?>
+                                        </div>
+                                </div>
+                                <div class="control-group">
+                                        <?php echo Form::label('physical_address_line3', 'Line3', array('class' => 'control-label')); ?>
+                                        <div class="controls">
+                                                <?php echo Form::text('physical_address_line3', $data['physical_address_line3'], array('id' => 'physical_address_line3', 'placeholder' => 'Address Line3', 'class' => 'm-wrap medium' )); ?>
+                                        </div>
+                                </div>
+                                <div class="control-group">
+                                        <?php echo Form::label('physical_address_line4', 'Line4', array('class' => 'control-label')); ?>
+                                        <div class="controls">
+                                                <?php echo Form::text('physical_address_line4', $data['physical_address_line4'], array('id' => 'physical_address_line4', 'placeholder' => 'Address Line4', 'class' => 'm-wrap medium' )); ?>
+                                        </div>
+                                </div>
+                            
+                                <div class="control-group">
+                                        <?php echo Form::label('physical_address_city', 'City', array('class' => 'control-label')); ?>
+                                        <div class="controls">
+                                                <?php echo Form::text('physical_address_city', $data['physical_address_city'], array('id' => 'physical_address_city', 'placeholder' => 'City', 'class' => 'm-wrap medium' )); ?>
+                                        </div>
+                                </div>
+
+                                <div class="control-group">
+                                        <?php echo Form::label('physical_address_state', 'State', array('class' => 'control-label')); ?>
+                                        <div class="controls">
+                                                <?php echo Form::text('physical_address_state', $data['physical_address_state'], array('id' => 'physical_address_state', 'placeholder' => 'State', 'class' => 'm-wrap medium' )); ?>
+                                        </div>
+                                </div>
+
+                                <div class="control-group">
+                                        <?php echo Form::label('physical_address_country', 'Country', array('class' => 'control-label')); ?>
+                                        <div class="controls">
+                                                <?php echo Form::text('physical_address_country', $data['physical_address_country'], array('id' => 'physical_address_country', 'placeholder' => 'Country', 'class' => 'm-wrap medium' )); ?>
+                                        </div>
+                                </div>
+                                
+                                <div class="control-group">
+                                        <?php echo Form::label('physical_address_postal_code', 'Zip Code', array('class' => 'control-label')); ?>
+                                        <div class="controls">
+                                                <?php echo Form::text('physical_address_postal_code', $data['physical_address_postal_code'], array('id' => 'physical_address_postal_code', 'placeholder' => 'Zip Code', 'class' => 'm-wrap medium' )); ?>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+            </div>
+            <div class="tab-pane active" id="portlet_tab1">
+                    
+                    
+ 
+            </div>                    
+    </div>
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('modal-footer-content'); ?>
+     <?php if($mode == "edit"): ?><?php echo Form::hidden('emp_id', $user_id, array('id' => 'emp_id' )); ?> <?php endif; ?>
+     <?php echo Form::hidden('mode', $mode, array('id' => 'mode' )); ?>
+     <?php echo Form::button('<i class=\'icon-ok\'></i> Save', array('name' => 'submit', 'id'=>'submit', 'type'=>'submit', 'class'=>'btn blue')); ?>
+<?php $__env->stopSection(); ?>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        
+        samAjaxFileUploader.init();
+
+        $("#submit").click(function(e){
+            e.preventDefault();
+            // function uploadFiles(event, image_upload_action, callback)
+            // var image_upload_action = '<?php echo URL::Route("admin.employee.image.upload");; ?>';
+            samAjaxFileUploader.uploadFiles(e, '<?php echo URL::Route("admin.employee.image.upload");; ?>', addAction); 
+        });
+    });
+    
+    var form    = $('#employee_add_form');
+    var error   = $('.alert-error', form);
+    var success = $('.alert-success', form);
+    
+    function addAction(serializedFilesData){
+                              
+            var url  = form.attr('action');
+            var data = form.serialize() + serializedFilesData;
+   
+            $.post(
+                url, data, 
+                function(data){ 
+                    console.log(data);
+                    obj     =   $.parseJSON(data);
+                    if(obj.status == "error"){
+                        error.show();
+                        showValidationErrors(obj.errors);
+                    }else{
+                         location.reload();
+                    }
+                }
+            );
+    }
+    
+</script>
+<?php echo $__env->make('layouts/metronic/backend/modal-responsive', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

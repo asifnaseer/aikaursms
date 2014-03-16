@@ -1,0 +1,340 @@
+[2014-01-29 17:28:56] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-29 17:29:01] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-29 17:29:13] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-29 17:29:13] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-29 17:29:13] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-29 18:35:10] log.ERROR: exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php:47
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php(47): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Connectors\MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Connectors\ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(2472): Illuminate\Database\DatabaseManager->connection(NULL)
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(2438): Illuminate\Database\Eloquent\Model::resolveConnection(NULL)
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(1527): Illuminate\Database\Eloquent\Model->getConnection()
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(1461): Illuminate\Database\Eloquent\Model->newBaseQueryBuilder()
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\cartalyst\sentry\src\Cartalyst\Sentry\Users\Eloquent\User.php(297): Illuminate\Database\Eloquent\Model->newQuery()
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\cartalyst\sentry\src\Cartalyst\Sentry\Users\Eloquent\User.php(316): Cartalyst\Sentry\Users\Eloquent\User->validate()
+#11 E:\development\Ampps\www\ds-dwm-instagram\vendor\cartalyst\sentry\src\Cartalyst\Sentry\Users\Eloquent\Provider.php(297): Cartalyst\Sentry\Users\Eloquent\User->save()
+#12 E:\development\Ampps\www\ds-dwm-instagram\vendor\cartalyst\sentry\src\Cartalyst\Sentry\Sentry.php(679): Cartalyst\Sentry\Users\Eloquent\Provider->create(Array)
+#13 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(206): Cartalyst\Sentry\Sentry->createUser(Array)
+#14 E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php(289): Illuminate\Support\Facades\Facade::__callStatic('createUser', Array)
+#15 E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php(289): Cartalyst\Sentry\Facades\Laravel\Sentry::createUser(Array)
+#16 [internal function]: Main\UserRegisterController->save()
+#17 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#18 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('save', Array)
+#19 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'save', Array)
+#20 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#21 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#22 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#23 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#24 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#25 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#26 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#27 {main} [] []
+[2014-01-29 18:57:37] log.ERROR: exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php:47
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php(47): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Connectors\MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Connectors\ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(2472): Illuminate\Database\DatabaseManager->connection(NULL)
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(2438): Illuminate\Database\Eloquent\Model::resolveConnection(NULL)
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(1527): Illuminate\Database\Eloquent\Model->getConnection()
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(1461): Illuminate\Database\Eloquent\Model->newBaseQueryBuilder()
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\cartalyst\sentry\src\Cartalyst\Sentry\Users\Eloquent\User.php(297): Illuminate\Database\Eloquent\Model->newQuery()
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\cartalyst\sentry\src\Cartalyst\Sentry\Users\Eloquent\User.php(316): Cartalyst\Sentry\Users\Eloquent\User->validate()
+#11 E:\development\Ampps\www\ds-dwm-instagram\vendor\cartalyst\sentry\src\Cartalyst\Sentry\Users\Eloquent\Provider.php(297): Cartalyst\Sentry\Users\Eloquent\User->save()
+#12 E:\development\Ampps\www\ds-dwm-instagram\vendor\cartalyst\sentry\src\Cartalyst\Sentry\Sentry.php(679): Cartalyst\Sentry\Users\Eloquent\Provider->create(Array)
+#13 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(206): Cartalyst\Sentry\Sentry->createUser(Array)
+#14 E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php(289): Illuminate\Support\Facades\Facade::__callStatic('createUser', Array)
+#15 E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php(289): Cartalyst\Sentry\Facades\Laravel\Sentry::createUser(Array)
+#16 [internal function]: Main\UserRegisterController->save()
+#17 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#18 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('save', Array)
+#19 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'save', Array)
+#20 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#21 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#22 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#23 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#24 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#25 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#26 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#27 {main} [] []
+[2014-01-29 18:57:52] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-29 18:58:14] log.ERROR: exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php:47
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php(47): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Connectors\MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Connectors\ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(2472): Illuminate\Database\DatabaseManager->connection(NULL)
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(2438): Illuminate\Database\Eloquent\Model::resolveConnection(NULL)
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(1527): Illuminate\Database\Eloquent\Model->getConnection()
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(1461): Illuminate\Database\Eloquent\Model->newBaseQueryBuilder()
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\cartalyst\sentry\src\Cartalyst\Sentry\Users\Eloquent\User.php(297): Illuminate\Database\Eloquent\Model->newQuery()
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\cartalyst\sentry\src\Cartalyst\Sentry\Users\Eloquent\User.php(316): Cartalyst\Sentry\Users\Eloquent\User->validate()
+#11 E:\development\Ampps\www\ds-dwm-instagram\vendor\cartalyst\sentry\src\Cartalyst\Sentry\Users\Eloquent\Provider.php(297): Cartalyst\Sentry\Users\Eloquent\User->save()
+#12 E:\development\Ampps\www\ds-dwm-instagram\vendor\cartalyst\sentry\src\Cartalyst\Sentry\Sentry.php(679): Cartalyst\Sentry\Users\Eloquent\Provider->create(Array)
+#13 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(206): Cartalyst\Sentry\Sentry->createUser(Array)
+#14 E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php(289): Illuminate\Support\Facades\Facade::__callStatic('createUser', Array)
+#15 E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php(289): Cartalyst\Sentry\Facades\Laravel\Sentry::createUser(Array)
+#16 [internal function]: Main\UserRegisterController->save()
+#17 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#18 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('save', Array)
+#19 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'save', Array)
+#20 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#21 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#22 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#23 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#24 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#25 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#26 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#27 {main} [] []
+[2014-01-29 18:58:41] log.ERROR: exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php:47
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php(47): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Connectors\MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Connectors\ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(2472): Illuminate\Database\DatabaseManager->connection(NULL)
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(2438): Illuminate\Database\Eloquent\Model::resolveConnection(NULL)
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(1527): Illuminate\Database\Eloquent\Model->getConnection()
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(1461): Illuminate\Database\Eloquent\Model->newBaseQueryBuilder()
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\cartalyst\sentry\src\Cartalyst\Sentry\Users\Eloquent\User.php(297): Illuminate\Database\Eloquent\Model->newQuery()
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\cartalyst\sentry\src\Cartalyst\Sentry\Users\Eloquent\User.php(316): Cartalyst\Sentry\Users\Eloquent\User->validate()
+#11 E:\development\Ampps\www\ds-dwm-instagram\vendor\cartalyst\sentry\src\Cartalyst\Sentry\Users\Eloquent\Provider.php(297): Cartalyst\Sentry\Users\Eloquent\User->save()
+#12 E:\development\Ampps\www\ds-dwm-instagram\vendor\cartalyst\sentry\src\Cartalyst\Sentry\Sentry.php(679): Cartalyst\Sentry\Users\Eloquent\Provider->create(Array)
+#13 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(206): Cartalyst\Sentry\Sentry->createUser(Array)
+#14 E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php(289): Illuminate\Support\Facades\Facade::__callStatic('createUser', Array)
+#15 E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php(289): Cartalyst\Sentry\Facades\Laravel\Sentry::createUser(Array)
+#16 [internal function]: Main\UserRegisterController->save()
+#17 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#18 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('save', Array)
+#19 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'save', Array)
+#20 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#21 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#22 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#23 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#24 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#25 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#26 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#27 {main} [] []
+[2014-01-29 18:58:54] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-29 19:01:26] log.ERROR: exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php:47
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php(47): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Connectors\MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Connectors\ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(2472): Illuminate\Database\DatabaseManager->connection(NULL)
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(2438): Illuminate\Database\Eloquent\Model::resolveConnection(NULL)
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(1527): Illuminate\Database\Eloquent\Model->getConnection()
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(1461): Illuminate\Database\Eloquent\Model->newBaseQueryBuilder()
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\cartalyst\sentry\src\Cartalyst\Sentry\Users\Eloquent\User.php(297): Illuminate\Database\Eloquent\Model->newQuery()
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\cartalyst\sentry\src\Cartalyst\Sentry\Users\Eloquent\User.php(316): Cartalyst\Sentry\Users\Eloquent\User->validate()
+#11 E:\development\Ampps\www\ds-dwm-instagram\vendor\cartalyst\sentry\src\Cartalyst\Sentry\Users\Eloquent\Provider.php(297): Cartalyst\Sentry\Users\Eloquent\User->save()
+#12 E:\development\Ampps\www\ds-dwm-instagram\vendor\cartalyst\sentry\src\Cartalyst\Sentry\Sentry.php(679): Cartalyst\Sentry\Users\Eloquent\Provider->create(Array)
+#13 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(206): Cartalyst\Sentry\Sentry->createUser(Array)
+#14 E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php(289): Illuminate\Support\Facades\Facade::__callStatic('createUser', Array)
+#15 E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php(289): Cartalyst\Sentry\Facades\Laravel\Sentry::createUser(Array)
+#16 [internal function]: Main\UserRegisterController->save()
+#17 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#18 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('save', Array)
+#19 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'save', Array)
+#20 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#21 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#22 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#23 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#24 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#25 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#26 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#27 {main} [] []
+[2014-01-29 19:01:38] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-29 19:02:54] log.ERROR: exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php:47
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php(47): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Connectors\MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Connectors\ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(2472): Illuminate\Database\DatabaseManager->connection(NULL)
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(2438): Illuminate\Database\Eloquent\Model::resolveConnection(NULL)
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(1527): Illuminate\Database\Eloquent\Model->getConnection()
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php(1461): Illuminate\Database\Eloquent\Model->newBaseQueryBuilder()
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\cartalyst\sentry\src\Cartalyst\Sentry\Users\Eloquent\User.php(297): Illuminate\Database\Eloquent\Model->newQuery()
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\cartalyst\sentry\src\Cartalyst\Sentry\Users\Eloquent\User.php(316): Cartalyst\Sentry\Users\Eloquent\User->validate()
+#11 E:\development\Ampps\www\ds-dwm-instagram\vendor\cartalyst\sentry\src\Cartalyst\Sentry\Users\Eloquent\Provider.php(297): Cartalyst\Sentry\Users\Eloquent\User->save()
+#12 E:\development\Ampps\www\ds-dwm-instagram\vendor\cartalyst\sentry\src\Cartalyst\Sentry\Sentry.php(679): Cartalyst\Sentry\Users\Eloquent\Provider->create(Array)
+#13 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(206): Cartalyst\Sentry\Sentry->createUser(Array)
+#14 E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php(289): Illuminate\Support\Facades\Facade::__callStatic('createUser', Array)
+#15 E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php(289): Cartalyst\Sentry\Facades\Laravel\Sentry::createUser(Array)
+#16 [internal function]: Main\UserRegisterController->save()
+#17 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#18 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('save', Array)
+#19 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'save', Array)
+#20 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#21 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#22 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#23 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#24 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#25 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#26 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#27 {main} [] []
+[2014-01-29 19:04:20] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-29 19:04:48] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-29 19:45:10] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-29 20:00:05] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-29 20:00:24] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-29 20:01:42] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-29 20:01:44] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-29 20:02:25] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-29 20:02:29] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-29 20:02:32] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-29 20:08:07] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-29 21:03:59] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []

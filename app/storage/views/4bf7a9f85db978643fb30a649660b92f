@@ -1,0 +1,96 @@
+
+<?php $__env->startSection('styles'); ?>
+    @parent
+    <link rel="stylesheet" type="text/css" href="<?php echo asset('public/layouts/metronic/backend/assets/plugins/select2/select2_metro.css'); ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo asset('public/layouts/metronic/backend/assets/plugins/chosen-bootstrap/chosen/chosen.css'); ?>" />
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('title'); ?>
+    @parent
+     Customer Login
+<?php $__env->stopSection(); ?>
+
+<?php /*  Page Content  */ ?>
+<?php $__env->startSection('content'); ?>
+ <div class="row-fluid">  
+    <div class="span12">
+        <div id="user_registeration_form_wizard">
+
+                                 
+             <?php echo Form::open(array('url' => URL::Route('user.authenticate'),'id'=>'user_login_form', 'class' => 'form-horizontal')); ?>
+                    <div class="form-wizard">
+                            <div class="tab-content">
+                                    <div class="alert alert-error hide">
+                                            <button class="close" data-dismiss="alert"></button>
+                                            You have some form errors. Please check below in each step.
+                                    </div>
+                                    <div class="alert alert-success hide">
+                                            <button class="close" data-dismiss="alert"></button>
+                                            Customer created Successfully !!!
+                                    </div>
+                                    <div id="tab_personal_info" class="tab-pane active" style="min-height: 124px;">
+
+
+                                            <div class="control-group">
+                                                    <?php echo Form::label('email', 'Email', array('class' => 'control-label')); ?>
+                                                    <div class="controls">
+                                                            <?php echo Form::text('email', '', array('id' => 'email', 'placeholder' => 'Email ID', 'class' => 'm-wrap medium' )); ?>
+                                                    </div>
+                                            </div>
+
+                                            <div class="control-group">
+                                                    <?php echo Form::label('password', 'Password', array('class' => 'control-label')); ?>
+                                                    <div class="controls">
+                                                            <?php echo Form::password('password', '', array('id' => 'password', 'placeholder' => 'Password', 'class' => 'm-wrap medium', 'rows'=>'3' )); ?>
+                                                    </div>
+                                            </div>
+
+                                    </div>
+
+                                  
+                            </div>
+                            <div class="form-actions clearfix">
+                                    <a href="javascript:;" class="btn blue button-submit" id="login_here">
+                                    Login <i class="m-icon-swapright m-icon-white"></i>
+                                    </a>
+                                    
+                            </div>
+                    </div>
+
+             <?php echo Form::close(); ?>
+   
+        </div>
+    </div>
+ </div>
+<?php $__env->stopSection(); ?>
+
+
+<?php $__env->startSection('script'); ?>
+    @parent
+    <script type="text/javascript" src="<?php echo asset('public/layouts/metronic/backend/assets/plugins/jquery-validation/dist/jquery.validate.min.js'); ?>"></script>
+    <script type="text/javascript" src="<?php echo asset('public/layouts/metronic/backend/assets/plugins/jquery-validation/dist/additional-methods.min.js'); ?>"></script>
+    <script type="text/javascript" src="<?php echo asset('public/layouts/metronic/backend/assets/plugins/bootstrap-wizard/jquery.bootstrap.wizard.min.js'); ?>"></script>
+    <script type="text/javascript" src="<?php echo asset('public/layouts/metronic/backend/assets/plugins/chosen-bootstrap/chosen/chosen.jquery.min.js'); ?>"></script>
+    <script type="text/javascript" src="<?php echo asset('public/layouts/metronic/backend/assets/plugins/select2/select2.min.js'); ?>"></script>
+    <script type="text/javascript" src="<?php echo asset('public/layouts/metronic/frontend/assets/scripts/app.js'); ?>"></script>
+    
+    <script type="text/javascript">
+
+
+                    
+                    $('#user_login_form .button-submit').click(function () {
+                        var url = $('#user_login_form').attr('action');
+                        $.post(url,$('#user_login_form').serialize(),function(data){
+                            if(data.success == false){
+                                showValidationErrors(data.errors);
+                            }else{ 
+                                location = "<?php echo url('/user/dashboard'); ?>";
+                            }
+                         });
+                    });
+                
+
+
+    </script>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.metronic.frontend.form', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

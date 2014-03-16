@@ -1,0 +1,67 @@
+
+
+
+
+<?php /*  Page Title  */ ?>
+<?php $__env->startSection('title'); ?>
+    @parent
+    <?php echo $page_title; ?>
+<?php $__env->stopSection(); ?>
+
+
+
+
+
+<?php /*  Page Styles */ ?>
+<?php $__env->startSection('styles'); ?>
+    @parent
+    <?php /*  BEGIN PAGE LEVEL STYLES  */ ?> 
+    
+
+    <?php /*  END PAGE LEVEL STYLES  */ ?>
+<?php $__env->stopSection(); ?>
+
+
+
+
+
+<?php /*  Page Content  */ ?>
+<?php $__env->startSection('content'); ?> 
+   
+    <?php /*  BEGIN PAGE CONTAINER */ ?>
+    <div class="container-fluid">
+        
+            <!-- BEGIN PAGE HEADER heaing, breadcrumbs etc -->
+            <?php echo $__env->make('layouts.metronic.front.common.content-header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+            <!-- END PAGE HEADER-->
+            
+            
+            <!-- BEGIN PAGE CONTENT-->
+            <div class="row-fluid margin-bottom-20">
+                  
+            </div>
+            <!-- END PAGE CONTENT-->
+    </div>
+    <?php /*  END PAGE CONTAINER  */ ?> 
+<?php $__env->stopSection(); ?>
+
+
+
+
+
+<?php $__env->startSection('script'); ?>
+    @parent
+    
+    <script src="<?php echo asset('public/layouts/metronic/front/assets/plugins/select2/select2.min.js'); ?>" type="text/javascript"></script>
+    <script src="<?php echo asset('public/layouts/metronic/front/assets/plugins/data-tables/jquery.dataTables.js'); ?>" type="text/javascript"></script>
+    <script src="<?php echo asset('public/layouts/metronic/front/assets/plugins/data-tables/DT_bootstrap.js'); ?>" type="text/javascript"></script>
+    
+    <!-- Enhanced Model Pop-ups -->
+    <script src="<?php echo asset('public/layouts/metronic/front/assets/plugins/bootstrap-modal/js/bootstrap-modal.js'); ?>" type="text/javascript"></script>
+    <script src="<?php echo asset('public/layouts/metronic/front/assets/plugins/bootstrap-modal/js/bootstrap-modalmanager.js'); ?>" type="text/javascript"></script>
+    
+    <script src="<?php echo asset('public/layouts/metronic/front/assets/scripts/app.js'); ?>"></script>
+    
+<?php $__env->stopSection(); ?>
+    
+<?php echo $__env->make('layouts/metronic/front/default', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

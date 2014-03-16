@@ -1,0 +1,51 @@
+
+<?php $__env->startSection('styles'); ?>
+    @parent
+    <link rel="stylesheet" type="text/css" href="<?php echo asset('public/layouts/metronic/backend/assets/plugins/select2/select2_metro.css'); ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo asset('public/layouts/metronic/backend/assets/plugins/chosen-bootstrap/chosen/chosen.css'); ?>" />
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('title'); ?>
+    @parent
+     Customer Login
+<?php $__env->stopSection(); ?>
+
+<?php /*  Page Content  */ ?>
+<?php $__env->startSection('content'); ?>
+ <div class="row-fluid">  
+    <div class="span12">
+        Packages
+    </div>
+ </div>
+<?php $__env->stopSection(); ?>
+
+
+<?php $__env->startSection('script'); ?>
+    @parent
+    <script type="text/javascript" src="<?php echo asset('public/layouts/metronic/backend/assets/plugins/jquery-validation/dist/jquery.validate.min.js'); ?>"></script>
+    <script type="text/javascript" src="<?php echo asset('public/layouts/metronic/backend/assets/plugins/jquery-validation/dist/additional-methods.min.js'); ?>"></script>
+    <script type="text/javascript" src="<?php echo asset('public/layouts/metronic/backend/assets/plugins/bootstrap-wizard/jquery.bootstrap.wizard.min.js'); ?>"></script>
+    <script type="text/javascript" src="<?php echo asset('public/layouts/metronic/backend/assets/plugins/chosen-bootstrap/chosen/chosen.jquery.min.js'); ?>"></script>
+    <script type="text/javascript" src="<?php echo asset('public/layouts/metronic/backend/assets/plugins/select2/select2.min.js'); ?>"></script>
+    <script type="text/javascript" src="<?php echo asset('public/layouts/metronic/frontend/assets/scripts/app.js'); ?>"></script>
+    
+    <script type="text/javascript">
+
+
+                    
+                    $('#user_login_form .button-submit').click(function () {
+                        var url = $('#user_login_form').attr('action');
+                        $.post(url,$('#user_login_form').serialize(),function(data){
+                            if(data.success == false){
+                                showValidationErrors(data.errors);
+                            }else{ 
+                                location = "<?php echo url('/user/dashboard'); ?>";
+                            }
+                         });
+                    });
+                
+
+
+    </script>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.metronic.frontend.form', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

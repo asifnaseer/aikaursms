@@ -1,0 +1,454 @@
+[2014-01-07 13:27:37] log.ERROR: exception 'ErrorException' with message 'Use of undefined constant FB_APP_ID - assumed 'FB_APP_ID'' in C:\wamp\www\ds-dwm-instagram\app\models\Facebook\FacebookConfiguration.php:19
+Stack trace:
+#0 C:\wamp\www\ds-dwm-instagram\app\models\Facebook\FacebookConfiguration.php(19): Illuminate\Exception\Handler->handleError(8, 'Use of undefine...', 'C:\wamp\www\ds-...', 19, Array)
+#1 C:\wamp\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php(87): Facebook\FacebookConfiguration::get()
+#2 [internal function]: Main\UserRegisterController->save()
+#3 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#4 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('save', Array)
+#5 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'save', Array)
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-01-07 13:29:08] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Undefined class constant 'FB_APP_ID'' in C:\wamp\www\ds-dwm-instagram\app\models\Facebook\FacebookConfiguration.php:19
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-07 13:31:10] log.ERROR: OAuthException: An active access token must be used to query information about the current user. [] []
+[2014-01-07 13:33:28] log.ERROR: OAuthException: An active access token must be used to query information about the current user. [] []
+[2014-01-07 13:48:26] log.ERROR: OAuthException: An active access token must be used to query information about the current user. [] []
+[2014-01-07 13:55:01] log.ERROR: OAuthException: An active access token must be used to query information about the current user. [] []
+[2014-01-07 13:55:17] log.ERROR: exception 'ErrorException' with message 'Undefined variable: userData' in C:\wamp\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php:100
+Stack trace:
+#0 C:\wamp\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php(100): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'C:\wamp\www\ds-...', 100, Array)
+#1 [internal function]: Main\UserRegisterController->save()
+#2 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#3 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('save', Array)
+#4 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'save', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#6 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-01-07 13:55:43] log.ERROR: OAuthException: An active access token must be used to query information about the current user. [] []
+[2014-01-07 14:00:08] log.ERROR: OAuthException: An active access token must be used to query information about the current user. [] []
+[2014-01-07 14:03:55] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Facebook\FacebookApiException::toSting()' in C:\wamp\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php:98
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-07 14:05:37] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-07 14:14:12] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-07 14:16:32] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to a member function setStatus() on a non-object' in C:\wamp\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php:129
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-07 14:29:04] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to a member function getStatus() on a non-object' in C:\wamp\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php:129
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-07 14:33:18] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-07 14:35:25] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-07 14:37:09] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-07 14:38:06] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-07 14:38:31] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-07 17:43:33] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Twiter\TwitterConfiguration' not found' in C:\wamp\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php:87
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-07 17:44:23] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Twiter\TwitterConfiguration' not found' in C:\wamp\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php:87
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-07 17:46:04] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Main\Twiter\TwitterConfiguration' not found' in C:\wamp\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php:87
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-07 17:46:32] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Main\TwitterConfiguration' not found' in C:\wamp\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php:87
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-07 17:47:34] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Twitter\OAuth\OAuthSignatureMethod_HMAC_SHA1' not found' in C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php:71
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-07 17:49:59] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Twitter\OAuth\OAuthSignatureMethod_HMAC_SHA1' not found' in C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php:71
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-07 17:51:29] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Twitter\OAuth\OAuthSignatureMethod_HMAC_SHA1' not found' in C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php:71
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-07 17:54:11] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Twitter\OAuth\OAuthSignatureMethod_HMAC_SHA1' not found' in C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php:72
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-07 17:56:24] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Twitter\OAuth\OAuthSignatureMethod_HMAC_SHA1' not found' in C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php:72
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-07 17:56:27] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Twitter\OAuth\OAuthSignatureMethod_HMAC_SHA1' not found' in C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php:72
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-07 17:57:01] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Twitter\OAuthSignatureMethodHmacSha1' not found' in C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php:72
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-07 17:57:54] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Twitter\OAuthSignatureMethodHmacSha1' not found' in C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php:72
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-07 17:59:10] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Twitter\OAuthSignatureMethodHmacSha1' not found' in C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php:72
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-07 17:59:45] log.ERROR: exception 'ErrorException' with message 'Missing argument 1 for Twitter\TwitterOAuth::getRequestToken(), called in C:\wamp\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php on line 90 and defined' in C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php:87
+Stack trace:
+#0 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php(87): Illuminate\Exception\Handler->handleError(2, 'Missing argumen...', 'C:\wamp\www\ds-...', 87, Array)
+#1 C:\wamp\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php(90): Twitter\TwitterOAuth->getRequestToken()
+#2 [internal function]: Main\UserRegisterController->index()
+#3 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#4 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('index', Array)
+#5 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-01-07 18:02:31] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Twitter\OAuth\OAuthSignatureMethod_HMAC_SHA1' not found' in C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php:71
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-07 18:03:54] log.ERROR: exception 'ErrorException' with message 'Missing argument 1 for Twitter\TwitterOAuth::getRequestToken(), called in C:\wamp\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php on line 90 and defined' in C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php:86
+Stack trace:
+#0 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php(86): Illuminate\Exception\Handler->handleError(2, 'Missing argumen...', 'C:\wamp\www\ds-...', 86, Array)
+#1 C:\wamp\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php(90): Twitter\TwitterOAuth->getRequestToken()
+#2 [internal function]: Main\UserRegisterController->index()
+#3 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#4 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('index', Array)
+#5 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-01-07 18:06:16] log.ERROR: exception 'ErrorException' with message 'array_map() expects parameter 1 to be a valid callback, class 'OAuthUtil' not found' in C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthUtil.php:9
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'array_map() exp...', 'C:\wamp\www\ds-...', 9, Array)
+#1 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthUtil.php(9): array_map(Array, Array)
+#2 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthUtil.php(135): Twitter\OAuth\OAuthUtil::urlencode_rfc3986(Array)
+#3 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthRequest.php(131): Twitter\OAuth\OAuthUtil::build_http_query(Array)
+#4 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthRequest.php(145): Twitter\OAuth\OAuthRequest->get_signable_parameters()
+#5 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthSignatureMethodHmacSha1.php(19): Twitter\OAuth\OAuthRequest->get_signature_base_string()
+#6 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthRequest.php(243): Twitter\OAuth\OAuthSignatureMethodHmacSha1->build_signature(Object(Twitter\OAuth\OAuthRequest), Object(Twitter\OAuth\OAuthConsumer), NULL)
+#7 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthRequest.php(238): Twitter\OAuth\OAuthRequest->build_signature(Object(Twitter\OAuth\OAuthSignatureMethodHmacSha1), Object(Twitter\OAuth\OAuthConsumer), NULL)
+#8 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php(190): Twitter\OAuth\OAuthRequest->sign_request(Object(Twitter\OAuth\OAuthSignatureMethodHmacSha1), Object(Twitter\OAuth\OAuthConsumer), NULL)
+#9 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php(89): Twitter\TwitterOAuth->oAuthRequest('https://api.twi...', 'GET', Array)
+#10 C:\wamp\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php(90): Twitter\TwitterOAuth->getRequestToken()
+#11 [internal function]: Main\UserRegisterController->index()
+#12 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#13 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('index', Array)
+#14 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#15 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#16 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#17 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#18 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#19 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#20 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#21 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#22 {main} [] []
+[2014-01-07 18:06:49] log.ERROR: exception 'ErrorException' with message 'array_map() expects parameter 1 to be a valid callback, class 'OAuthUtil' not found' in C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthUtil.php:9
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'array_map() exp...', 'C:\wamp\www\ds-...', 9, Array)
+#1 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthUtil.php(9): array_map(Array, Array)
+#2 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthUtil.php(135): Twitter\OAuth\OAuthUtil::urlencode_rfc3986(Array)
+#3 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthRequest.php(131): Twitter\OAuth\OAuthUtil::build_http_query(Array)
+#4 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthRequest.php(145): Twitter\OAuth\OAuthRequest->get_signable_parameters()
+#5 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthSignatureMethodHmacSha1.php(19): Twitter\OAuth\OAuthRequest->get_signature_base_string()
+#6 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthRequest.php(243): Twitter\OAuth\OAuthSignatureMethodHmacSha1->build_signature(Object(Twitter\OAuth\OAuthRequest), Object(Twitter\OAuth\OAuthConsumer), NULL)
+#7 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthRequest.php(238): Twitter\OAuth\OAuthRequest->build_signature(Object(Twitter\OAuth\OAuthSignatureMethodHmacSha1), Object(Twitter\OAuth\OAuthConsumer), NULL)
+#8 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php(190): Twitter\OAuth\OAuthRequest->sign_request(Object(Twitter\OAuth\OAuthSignatureMethodHmacSha1), Object(Twitter\OAuth\OAuthConsumer), NULL)
+#9 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php(89): Twitter\TwitterOAuth->oAuthRequest('https://api.twi...', 'GET', Array)
+#10 C:\wamp\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php(90): Twitter\TwitterOAuth->getRequestToken('http://localhos...')
+#11 [internal function]: Main\UserRegisterController->index()
+#12 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#13 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('index', Array)
+#14 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#15 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#16 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#17 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#18 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#19 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#20 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#21 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#22 {main} [] []
+[2014-01-07 18:06:53] log.ERROR: exception 'ErrorException' with message 'array_map() expects parameter 1 to be a valid callback, class 'OAuthUtil' not found' in C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthUtil.php:9
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'array_map() exp...', 'C:\wamp\www\ds-...', 9, Array)
+#1 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthUtil.php(9): array_map(Array, Array)
+#2 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthUtil.php(135): Twitter\OAuth\OAuthUtil::urlencode_rfc3986(Array)
+#3 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthRequest.php(131): Twitter\OAuth\OAuthUtil::build_http_query(Array)
+#4 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthRequest.php(145): Twitter\OAuth\OAuthRequest->get_signable_parameters()
+#5 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthSignatureMethodHmacSha1.php(19): Twitter\OAuth\OAuthRequest->get_signature_base_string()
+#6 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthRequest.php(243): Twitter\OAuth\OAuthSignatureMethodHmacSha1->build_signature(Object(Twitter\OAuth\OAuthRequest), Object(Twitter\OAuth\OAuthConsumer), NULL)
+#7 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthRequest.php(238): Twitter\OAuth\OAuthRequest->build_signature(Object(Twitter\OAuth\OAuthSignatureMethodHmacSha1), Object(Twitter\OAuth\OAuthConsumer), NULL)
+#8 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php(190): Twitter\OAuth\OAuthRequest->sign_request(Object(Twitter\OAuth\OAuthSignatureMethodHmacSha1), Object(Twitter\OAuth\OAuthConsumer), NULL)
+#9 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php(89): Twitter\TwitterOAuth->oAuthRequest('https://api.twi...', 'GET', Array)
+#10 C:\wamp\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php(90): Twitter\TwitterOAuth->getRequestToken('http://localhos...')
+#11 [internal function]: Main\UserRegisterController->index()
+#12 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#13 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('index', Array)
+#14 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#15 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#16 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#17 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#18 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#19 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#20 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#21 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#22 {main} [] []
+[2014-01-07 18:07:07] log.ERROR: exception 'ErrorException' with message 'array_map() expects parameter 1 to be a valid callback, class 'OAuthUtil' not found' in C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthUtil.php:9
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'array_map() exp...', 'C:\wamp\www\ds-...', 9, Array)
+#1 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthUtil.php(9): array_map(Array, Array)
+#2 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthUtil.php(135): Twitter\OAuth\OAuthUtil::urlencode_rfc3986(Array)
+#3 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthRequest.php(131): Twitter\OAuth\OAuthUtil::build_http_query(Array)
+#4 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthRequest.php(145): Twitter\OAuth\OAuthRequest->get_signable_parameters()
+#5 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthSignatureMethodHmacSha1.php(19): Twitter\OAuth\OAuthRequest->get_signature_base_string()
+#6 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthRequest.php(243): Twitter\OAuth\OAuthSignatureMethodHmacSha1->build_signature(Object(Twitter\OAuth\OAuthRequest), Object(Twitter\OAuth\OAuthConsumer), NULL)
+#7 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthRequest.php(238): Twitter\OAuth\OAuthRequest->build_signature(Object(Twitter\OAuth\OAuthSignatureMethodHmacSha1), Object(Twitter\OAuth\OAuthConsumer), NULL)
+#8 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php(190): Twitter\OAuth\OAuthRequest->sign_request(Object(Twitter\OAuth\OAuthSignatureMethodHmacSha1), Object(Twitter\OAuth\OAuthConsumer), NULL)
+#9 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php(89): Twitter\TwitterOAuth->oAuthRequest('https://api.twi...', 'GET', Array)
+#10 C:\wamp\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php(90): Twitter\TwitterOAuth->getRequestToken('http://127.0.0....')
+#11 [internal function]: Main\UserRegisterController->index()
+#12 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#13 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('index', Array)
+#14 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#15 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#16 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#17 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#18 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#19 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#20 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#21 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#22 {main} [] []
+[2014-01-07 18:39:22] log.ERROR: exception 'ErrorException' with message 'array_map() expects parameter 1 to be a valid callback, class 'OAuthUtil' not found' in C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthUtil.php:9
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'array_map() exp...', 'C:\wamp\www\ds-...', 9, Array)
+#1 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthUtil.php(9): array_map(Array, Array)
+#2 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthUtil.php(135): Twitter\OAuth\OAuthUtil::urlencode_rfc3986(Array)
+#3 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthRequest.php(131): Twitter\OAuth\OAuthUtil::build_http_query(Array)
+#4 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthRequest.php(145): Twitter\OAuth\OAuthRequest->get_signable_parameters()
+#5 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthSignatureMethodHmacSha1.php(19): Twitter\OAuth\OAuthRequest->get_signature_base_string()
+#6 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthRequest.php(243): Twitter\OAuth\OAuthSignatureMethodHmacSha1->build_signature(Object(Twitter\OAuth\OAuthRequest), Object(Twitter\OAuth\OAuthConsumer), NULL)
+#7 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\OAuth\OAuthRequest.php(238): Twitter\OAuth\OAuthRequest->build_signature(Object(Twitter\OAuth\OAuthSignatureMethodHmacSha1), Object(Twitter\OAuth\OAuthConsumer), NULL)
+#8 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php(190): Twitter\OAuth\OAuthRequest->sign_request(Object(Twitter\OAuth\OAuthSignatureMethodHmacSha1), Object(Twitter\OAuth\OAuthConsumer), NULL)
+#9 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php(89): Twitter\TwitterOAuth->oAuthRequest('https://api.twi...', 'GET', Array)
+#10 C:\wamp\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php(90): Twitter\TwitterOAuth->getRequestToken('http://127.0.0....')
+#11 [internal function]: Main\UserRegisterController->index()
+#12 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#13 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('index', Array)
+#14 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#15 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#16 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#17 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#18 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#19 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#20 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#21 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#22 {main} [] []
+[2014-01-07 18:39:53] log.ERROR: exception 'ErrorException' with message 'Undefined index: oauth_token' in C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php:91
+Stack trace:
+#0 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php(91): Illuminate\Exception\Handler->handleError(8, 'Undefined index...', 'C:\wamp\www\ds-...', 91, Array)
+#1 C:\wamp\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php(90): Twitter\TwitterOAuth->getRequestToken('http://127.0.0....')
+#2 [internal function]: Main\UserRegisterController->index()
+#3 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#4 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('index', Array)
+#5 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-01-07 18:43:08] log.ERROR: exception 'ErrorException' with message 'Undefined index: oauth_token' in C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php:94
+Stack trace:
+#0 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php(94): Illuminate\Exception\Handler->handleError(8, 'Undefined index...', 'C:\wamp\www\ds-...', 94, Array)
+#1 C:\wamp\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php(90): Twitter\TwitterOAuth->getRequestToken('http://127.0.0....')
+#2 [internal function]: Main\UserRegisterController->index()
+#3 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#4 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('index', Array)
+#5 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-01-07 18:58:54] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '$request' (T_VARIABLE)' in C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php:193
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-07 19:17:52] log.ERROR: exception 'ErrorException' with message 'Undefined index: oauth_token' in C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php:91
+Stack trace:
+#0 C:\wamp\www\ds-dwm-instagram\app\models\Twitter\TwitterOAuth.php(91): Illuminate\Exception\Handler->handleError(8, 'Undefined index...', 'C:\wamp\www\ds-...', 91, Array)
+#1 C:\wamp\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php(90): Twitter\TwitterOAuth->getRequestToken()
+#2 [internal function]: Main\UserRegisterController->index()
+#3 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#4 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('index', Array)
+#5 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-01-07 19:35:02] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-07 19:56:10] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to a member function getAuthorizeURL() on a non-object' in C:\wamp\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php:89
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-07 19:56:16] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to a member function getAuthorizeURL() on a non-object' in C:\wamp\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php:89
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-07 19:56:45] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-07 19:56:46] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-07 19:56:46] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-07 19:57:38] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-07 19:58:59] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-07 19:59:25] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-07 20:02:58] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-07 20:03:14] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 C:\wamp\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 C:\wamp\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []

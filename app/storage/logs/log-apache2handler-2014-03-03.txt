@@ -1,0 +1,221 @@
+[2014-03-03 13:39:07] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-03 13:39:07] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-03 13:39:31] log.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserProfileController.php:116
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserProfileController.php(116): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', 'E:\development\...', 116, Array)
+#1 [internal function]: Main\UserProfileController->newboard('2', 'favicon.ico')
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('newboard', Array)
+#4 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'newboard', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('2', 'favicon.ico')
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-03-03 13:39:32] log.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserProfileController.php:116
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserProfileController.php(116): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', 'E:\development\...', 116, Array)
+#1 [internal function]: Main\UserProfileController->newboard('2', 'favicon.ico')
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('newboard', Array)
+#4 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'newboard', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('2', 'favicon.ico')
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-03-03 13:39:52] log.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserProfileController.php:151
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserProfileController.php(151): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', 'E:\development\...', 151, Array)
+#1 [internal function]: Main\UserProfileController->newboard('3', 'favicon.ico')
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('newboard', Array)
+#4 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'newboard', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('3', 'favicon.ico')
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-03-03 13:39:53] log.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserProfileController.php:151
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserProfileController.php(151): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', 'E:\development\...', 151, Array)
+#1 [internal function]: Main\UserProfileController->newboard('3', 'favicon.ico')
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('newboard', Array)
+#4 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'newboard', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('3', 'favicon.ico')
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-03-03 17:48:39] log.ERROR: exception 'ErrorException' with message 'file_get_contents(https://api.instagram.com/v1/users//followed-by?access_token=823170405.4d50fa3.7cdfbab1554d4524bf22f1686cc74af4): failed to open stream: HTTP request failed! HTTP/1.1 404 NOT FOUND
+' in E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserProfileController.php:175
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'file_get_conten...', 'E:\development\...', 175, Array)
+#1 E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserProfileController.php(175): file_get_contents('https://api.ins...')
+#2 [internal function]: Main\UserProfileController->newboard('4', '4', '20')
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#4 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('newboard', Array)
+#5 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'newboard', Array)
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('4', '4', '20')
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-03-03 17:52:21] log.ERROR: exception 'ErrorException' with message 'file_get_contents(https://api.instagram.com/v1/users//followed-by?access_token=823170405.4d50fa3.7cdfbab1554d4524bf22f1686cc74af4): failed to open stream: HTTP request failed! HTTP/1.1 404 NOT FOUND
+' in E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserProfileController.php:175
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'file_get_conten...', 'E:\development\...', 175, Array)
+#1 E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserProfileController.php(175): file_get_contents('https://api.ins...')
+#2 [internal function]: Main\UserProfileController->newboard('4', '4', '20')
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#4 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('newboard', Array)
+#5 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'newboard', Array)
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('4', '4', '20')
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-03-03 17:59:34] log.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserProfileController.php:176
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserProfileController.php(176): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', 'E:\development\...', 176, Array)
+#1 [internal function]: Main\UserProfileController->newboard('4', '4', '20')
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('newboard', Array)
+#4 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'newboard', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('4', '4', '20')
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-03-03 18:45:32] log.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserProfileController.php:176
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserProfileController.php(176): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', 'E:\development\...', 176, Array)
+#1 [internal function]: Main\UserProfileController->newboard('4', '4', '20')
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('newboard', Array)
+#4 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'newboard', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('4', '4', '20')
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-03-03 19:08:27] log.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserProfileController.php:176
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserProfileController.php(176): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', 'E:\development\...', 176, Array)
+#1 [internal function]: Main\UserProfileController->newboard('4', '4', '20')
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('newboard', Array)
+#4 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'newboard', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('4', '4', '20')
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-03-03 19:09:34] log.ERROR: exception 'UnexpectedValueException' with message 'The Response content must be a string or object implementing __toString(), "object" given.' in E:\development\Ampps\www\ds-dwm-instagram\vendor\symfony\http-foundation\Symfony\Component\HttpFoundation\Response.php:358
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Http\Response.php(73): Symfony\Component\HttpFoundation\Response->setContent(Object(stdClass))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\symfony\http-foundation\Symfony\Component\HttpFoundation\Response.php(141): Illuminate\Http\Response->setContent(Object(stdClass))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(stdClass))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(stdClass), Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'newboard', Object(stdClass))
+#5 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'newboard', Array)
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('4', '4', '20')
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-03-03 19:40:09] log.ERROR: exception 'UnexpectedValueException' with message 'The Response content must be a string or object implementing __toString(), "object" given.' in E:\development\Ampps\www\ds-dwm-instagram\vendor\symfony\http-foundation\Symfony\Component\HttpFoundation\Response.php:358
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Http\Response.php(73): Symfony\Component\HttpFoundation\Response->setContent(Object(stdClass))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\symfony\http-foundation\Symfony\Component\HttpFoundation\Response.php(141): Illuminate\Http\Response->setContent(Object(stdClass))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(stdClass))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(stdClass), Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'newboard', Object(stdClass))
+#5 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'newboard', Array)
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('4', '4', '20')
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-03-03 20:11:56] log.ERROR: exception 'ErrorException' with message 'Undefined variable: response_array' in E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserProfileController.php:176
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserProfileController.php(176): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'E:\development\...', 176, Array)
+#1 [internal function]: Main\UserProfileController->newboard('4', '4', '20')
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('newboard', Array)
+#4 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'newboard', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('4', '4', '20')
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-03-03 20:12:43] log.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserProfileController.php:177
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserProfileController.php(177): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', 'E:\development\...', 177, Array)
+#1 [internal function]: Main\UserProfileController->newboard('4', '4', '20')
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('newboard', Array)
+#4 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'newboard', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('4', '4', '20')
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-03-03 20:13:47] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Cannot use object of type stdClass as array' in E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserProfileController.php:177
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []

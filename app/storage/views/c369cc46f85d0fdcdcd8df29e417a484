@@ -1,0 +1,54 @@
+<!-- BEGIN SIDEBAR -->
+<div class="page-sidebar nav-collapse collapse">
+        <!-- BEGIN SIDEBAR MENU --> 
+        <ul class="page-sidebar-menu">
+            
+            <?php 
+                $mCount = 0;
+                $tCount = count($adminLeftSidebarMenu['menu']);
+            ?>   
+            <?php foreach( $adminLeftSidebarMenu['menu'] as $mMenu): ?>  
+                  <!-- Main Menu Starts Here --> 
+                  <li   <?php if ($mCount == 0): ?>       class="start"   <?php endif; ?>
+                        <?php if ($mCount == $tCount): ?> class="last"    <?php endif; ?>
+                        <?php if ($mMenu['isActive']): ?> class="active"  <?php endif; ?> >
+                            
+                            <!-- Main Menu Information -->
+                            <a href="<?php echo URL::route($mMenu['route_name']); ?>">
+                                <i class="icon-<?php echo $mMenu['icon']; ?>"></i> 
+                                <span class="title"><?php echo ucwords($mMenu['title']); ?></span>
+                                
+                                <?php if ($mMenu['isActive']): ?>
+                                        <span class="selected"></span>
+                                <?php endif; ?>
+                                
+                                <?php if (isset($mMenu['sub_menu']) && is_array($mMenu['sub_menu']) && count($mMenu['sub_menu']) > 0 && $mMenu['isActive'] ): ?>   
+                                        <span class="arrow open"></span>
+                                <?php endif; ?>
+                                
+                                <?php if (isset($mMenu['sub_menu']) && is_array($mMenu['sub_menu']) && count($mMenu['sub_menu']) > 0 && !$mMenu['isActive']): ?>  
+                                        <span class="arrow"></span>
+                                <?php endif; ?>
+                            </a>
+                      
+                            <?php if (isset($mMenu['sub_menu']) && is_array($mMenu['sub_menu']) && count($mMenu['sub_menu']) > 0): ?>
+                                    <!-- Sub Menu Starts -->
+                                    <ul class="sub-menu"> 
+                                         <?php foreach($mMenu['sub_menu'] as $sMenu): ?>
+                                              <li <?php if ($sMenu['isActive']): ?> class="active" <?php endif; ?> >
+                                                    <a href="<?php echo URL::route($sMenu['route_name']); ?>">
+                                                        <?php echo ucwords($sMenu['title']); ?>
+                                                    </a>
+                                              </li>
+                                         <?php endforeach; ?>
+                                    </ul>
+                                    <!-- Sub Menu Ends -->
+                            <?php endif; ?>
+                   </li>
+                   <?php $mCount++; ?>
+            <?php endforeach; ?>
+             
+        </ul>
+        <!-- END SIDEBAR MENU -->
+</div>
+<!-- END SIDEBAR -->

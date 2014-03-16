@@ -1,0 +1,761 @@
+[2014-01-31 13:28:30] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 13:28:31] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 13:28:31] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 13:28:37] log.ERROR: exception 'InvalidArgumentException' with message 'View [main.user.login] not found.' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\FileViewFinder.php:135
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\FileViewFinder.php(76): Illuminate\View\FileViewFinder->findInPaths('main.user.login', Array)
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\Environment.php(115): Illuminate\View\FileViewFinder->find('main.user.login')
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(206): Illuminate\View\Environment->make('main.user.login')
+#3 E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php(75): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#4 E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php(75): Illuminate\Support\Facades\View::make('main.user.login')
+#5 [internal function]: Main\UserRegisterController->login()
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('login', Array)
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'login', Array)
+#9 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#11 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#12 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#16 {main} [] []
+[2014-01-31 14:38:31] log.ERROR: exception 'ErrorException' with message 'Undefined variable: post_back' in E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f:18
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f(18): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'E:\development\...', 18, Array)
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\Engines\PhpEngine.php(38): include('E:\development\...')
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('E:\development\...', Array)
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\View.php(100): Illuminate\View\Engines\CompilerEngine->get('E:\development\...', Array)
+#4 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\View.php(81): Illuminate\View\View->getContents()
+#5 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Http\Response.php(70): Illuminate\View\View->render()
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\symfony\http-foundation\Symfony\Component\HttpFoundation\Response.php(141): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'login', Object(Illuminate\View\View))
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'login', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-01-31 14:41:13] log.ERROR: exception 'ErrorException' with message 'Undefined variable: data' in E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f:62
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f(62): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'E:\development\...', 62, Array)
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\Engines\PhpEngine.php(38): include('E:\development\...')
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('E:\development\...', Array)
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\View.php(100): Illuminate\View\Engines\CompilerEngine->get('E:\development\...', Array)
+#4 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\View.php(81): Illuminate\View\View->getContents()
+#5 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Http\Response.php(70): Illuminate\View\View->render()
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\symfony\http-foundation\Symfony\Component\HttpFoundation\Response.php(141): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'login', Object(Illuminate\View\View))
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'login', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-01-31 14:43:03] log.ERROR: exception 'ErrorException' with message 'Undefined variable: data' in E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f:62
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f(62): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'E:\development\...', 62, Array)
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\Engines\PhpEngine.php(38): include('E:\development\...')
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('E:\development\...', Array)
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\View.php(100): Illuminate\View\Engines\CompilerEngine->get('E:\development\...', Array)
+#4 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\View.php(81): Illuminate\View\View->getContents()
+#5 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Http\Response.php(70): Illuminate\View\View->render()
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\symfony\http-foundation\Symfony\Component\HttpFoundation\Response.php(141): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'login', Object(Illuminate\View\View))
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'login', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-01-31 14:43:41] log.ERROR: exception 'ErrorException' with message 'Undefined variable: data' in E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f:62
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f(62): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'E:\development\...', 62, Array)
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\Engines\PhpEngine.php(38): include('E:\development\...')
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('E:\development\...', Array)
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\View.php(100): Illuminate\View\Engines\CompilerEngine->get('E:\development\...', Array)
+#4 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\View.php(81): Illuminate\View\View->getContents()
+#5 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Http\Response.php(70): Illuminate\View\View->render()
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\symfony\http-foundation\Symfony\Component\HttpFoundation\Response.php(141): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'login', Object(Illuminate\View\View))
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'login', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-01-31 14:44:36] log.ERROR: exception 'ErrorException' with message 'Undefined variable: data' in E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f:64
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f(64): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'E:\development\...', 64, Array)
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\Engines\PhpEngine.php(38): include('E:\development\...')
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('E:\development\...', Array)
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\View.php(100): Illuminate\View\Engines\CompilerEngine->get('E:\development\...', Array)
+#4 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\View.php(81): Illuminate\View\View->getContents()
+#5 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Http\Response.php(70): Illuminate\View\View->render()
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\symfony\http-foundation\Symfony\Component\HttpFoundation\Response.php(141): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'login', Object(Illuminate\View\View))
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'login', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-01-31 14:45:41] log.ERROR: exception 'ErrorException' with message 'Undefined variable: data' in E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f:91
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f(91): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', 'E:\development\...', 91, Array)
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\Engines\PhpEngine.php(38): include('E:\development\...')
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('E:\development\...', Array)
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\View.php(100): Illuminate\View\Engines\CompilerEngine->get('E:\development\...', Array)
+#4 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\View.php(81): Illuminate\View\View->getContents()
+#5 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Http\Response.php(70): Illuminate\View\View->render()
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\symfony\http-foundation\Symfony\Component\HttpFoundation\Response.php(141): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'login', Object(Illuminate\View\View))
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'login', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-01-31 14:46:03] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 14:46:35] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 14:46:49] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 14:47:18] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 14:48:30] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 14:49:09] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 14:49:20] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 14:49:24] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 14:49:28] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 14:50:09] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 14:50:33] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 14:50:36] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 14:50:37] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 15:15:28] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 15:16:06] log.ERROR: exception 'ErrorException' with message 'Illegal string offset 'name'' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php:220
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(220): Illuminate\Exception\Handler->handleError(2, 'Illegal string ...', 'E:\development\...', 220, Array)
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(703): Illuminate\Html\FormBuilder->input('submit', NULL, 'Click Me!', 'btn blue')
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(209): Illuminate\Html\FormBuilder->submit('Click Me!', 'btn blue')
+#3 E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f(53): Illuminate\Support\Facades\Facade::__callStatic('submit', Array)
+#4 E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f(53): Illuminate\Support\Facades\Form::submit('Click Me!', 'btn blue')
+#5 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\Engines\PhpEngine.php(38): include('E:\development\...')
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('E:\development\...', Array)
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\View.php(100): Illuminate\View\Engines\CompilerEngine->get('E:\development\...', Array)
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\View.php(81): Illuminate\View\View->getContents()
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Http\Response.php(70): Illuminate\View\View->render()
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\symfony\http-foundation\Symfony\Component\HttpFoundation\Response.php(141): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#11 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#12 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#13 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'login', Object(Illuminate\View\View))
+#14 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'login', Array)
+#15 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#16 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#17 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#18 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#19 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#20 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#21 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#22 {main} [] []
+[2014-01-31 15:17:39] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ';'' in E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f:53
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-31 15:17:46] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ';'' in E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f:53
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-31 15:17:56] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ';'' in E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f:53
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-31 15:18:10] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ';'' in E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f:53
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-31 15:18:45] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ';'' in E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f:53
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-31 15:19:00] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ';'' in E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f:53
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-31 15:19:20] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ';'' in E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f:53
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-31 15:19:33] log.ERROR: exception 'ErrorException' with message 'Illegal string offset 'name'' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php:220
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(220): Illuminate\Exception\Handler->handleError(2, 'Illegal string ...', 'E:\development\...', 220, Array)
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(703): Illuminate\Html\FormBuilder->input('submit', NULL, 'Login here', 'login')
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(212): Illuminate\Html\FormBuilder->submit('Login here', 'login', Array)
+#3 E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f(53): Illuminate\Support\Facades\Facade::__callStatic('submit', Array)
+#4 E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f(53): Illuminate\Support\Facades\Form::submit('Login here', 'login', Array)
+#5 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\Engines\PhpEngine.php(38): include('E:\development\...')
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('E:\development\...', Array)
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\View.php(100): Illuminate\View\Engines\CompilerEngine->get('E:\development\...', Array)
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\View.php(81): Illuminate\View\View->getContents()
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Http\Response.php(70): Illuminate\View\View->render()
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\symfony\http-foundation\Symfony\Component\HttpFoundation\Response.php(141): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#11 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#12 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#13 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'login', Object(Illuminate\View\View))
+#14 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'login', Array)
+#15 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#16 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#17 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#18 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#19 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#20 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#21 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#22 {main} [] []
+[2014-01-31 15:21:22] log.ERROR: exception 'ErrorException' with message 'Illegal string offset 'name'' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php:220
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(220): Illuminate\Exception\Handler->handleError(2, 'Illegal string ...', 'E:\development\...', 220, Array)
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(703): Illuminate\Html\FormBuilder->input('submit', NULL, 'login_here', 'Login here!')
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(212): Illuminate\Html\FormBuilder->submit('login_here', 'Login here!', Array)
+#3 E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f(53): Illuminate\Support\Facades\Facade::__callStatic('submit', Array)
+#4 E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f(53): Illuminate\Support\Facades\Form::submit('login_here', 'Login here!', Array)
+#5 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\Engines\PhpEngine.php(38): include('E:\development\...')
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('E:\development\...', Array)
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\View.php(100): Illuminate\View\Engines\CompilerEngine->get('E:\development\...', Array)
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\View.php(81): Illuminate\View\View->getContents()
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Http\Response.php(70): Illuminate\View\View->render()
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\symfony\http-foundation\Symfony\Component\HttpFoundation\Response.php(141): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#11 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#12 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#13 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'login', Object(Illuminate\View\View))
+#14 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'login', Array)
+#15 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#16 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#17 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#18 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#19 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#20 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#21 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#22 {main} [] []
+[2014-01-31 15:21:29] log.ERROR: exception 'ErrorException' with message 'Illegal string offset 'name'' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php:220
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(220): Illuminate\Exception\Handler->handleError(2, 'Illegal string ...', 'E:\development\...', 220, Array)
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Html\FormBuilder.php(703): Illuminate\Html\FormBuilder->input('submit', NULL, 'login_here', 'Login here')
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(212): Illuminate\Html\FormBuilder->submit('login_here', 'Login here', Array)
+#3 E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f(53): Illuminate\Support\Facades\Facade::__callStatic('submit', Array)
+#4 E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f(53): Illuminate\Support\Facades\Form::submit('login_here', 'Login here', Array)
+#5 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\Engines\PhpEngine.php(38): include('E:\development\...')
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('E:\development\...', Array)
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\View.php(100): Illuminate\View\Engines\CompilerEngine->get('E:\development\...', Array)
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\View.php(81): Illuminate\View\View->getContents()
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Http\Response.php(70): Illuminate\View\View->render()
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\symfony\http-foundation\Symfony\Component\HttpFoundation\Response.php(141): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#11 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#12 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#13 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'login', Object(Illuminate\View\View))
+#14 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'login', Array)
+#15 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#16 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#17 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#18 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#19 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#20 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#21 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#22 {main} [] []
+[2014-01-31 15:23:05] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 15:23:23] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 15:23:43] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 15:23:50] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 15:24:01] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 16:05:16] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 17:17:13] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 17:18:18] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 17:20:29] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 17:20:54] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 17:20:55] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1439
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 18:41:10] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 18:41:11] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 18:41:11] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 19:18:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 19:18:59] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1439
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 19:33:10] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1439
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 19:33:42] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 19:33:43] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Main\Request' not found' in E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php:265
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-31 19:34:39] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 19:34:40] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Main\Request' not found' in E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php:265
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-31 19:34:49] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1439
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 19:35:40] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1439
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 19:36:48] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1439
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 19:56:44] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Main\Request' not found' in E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php:265
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-31 20:05:08] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 20:05:16] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Main\Request' not found' in E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php:265
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-31 20:06:55] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 20:07:23] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Main\Request' not found' in E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php:265
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-31 20:09:11] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 20:09:12] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Main\Request' not found' in E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php:265
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-31 20:11:26] log.ERROR: exception 'Symfony\Component\Routing\Exception\RouteNotFoundException' with message 'Unable to generate a URL for the named route "user.auth" as such route does not exist.' in E:\development\Ampps\www\ds-dwm-instagram\vendor\symfony\routing\Symfony\Component\Routing\Generator\UrlGenerator.php:134
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\UrlGenerator.php(192): Symfony\Component\Routing\Generator\UrlGenerator->generate('user.auth', Array, true)
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(206): Illuminate\Routing\UrlGenerator->route('user.auth')
+#2 E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f(20): Illuminate\Support\Facades\Facade::__callStatic('Route', Array)
+#3 E:\development\Ampps\www\ds-dwm-instagram\app\storage\views\4bf7a9f85db978643fb30a649660b92f(20): Illuminate\Support\Facades\URL::Route('user.auth')
+#4 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\Engines\PhpEngine.php(38): include('E:\development\...')
+#5 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('E:\development\...', Array)
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\View.php(100): Illuminate\View\Engines\CompilerEngine->get('E:\development\...', Array)
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\View\View.php(81): Illuminate\View\View->getContents()
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Http\Response.php(70): Illuminate\View\View->render()
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\symfony\http-foundation\Symfony\Component\HttpFoundation\Response.php(141): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#11 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#12 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'login', Object(Illuminate\View\View))
+#13 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'login', Array)
+#14 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#15 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#16 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#17 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#18 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#19 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#20 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#21 {main} [] []
+[2014-01-31 20:11:46] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 20:11:47] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Main\Request' not found' in E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php:265
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-31 20:11:53] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Main\Request' not found' in E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php:265
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-31 20:15:27] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 20:15:27] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Symfony\Component\HttpFoundation\Request::ajax()' in E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php:265
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-31 20:16:00] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 20:16:27] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 20:24:47] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 20:24:54] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Main\User' not found' in E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php:269
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-31 20:25:12] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Main\User' not found' in E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php:269
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-31 20:36:55] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Main\User' not found' in E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php:269
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-31 20:38:23] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Main\User' not found' in E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php:269
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-31 20:38:48] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1429
+Stack trace:
+#0 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-31 20:39:33] log.ERROR: exception 'ErrorException' with message 'strtolower() expects parameter 1 to be string, array given' in E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Grammar.php:49
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'strtolower() ex...', 'E:\development\...', 49, Array)
+#1 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Grammar.php(49): strtolower(Array)
+#2 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Query\Grammars\Grammar.php(362): Illuminate\Database\Grammar->wrap(Array)
+#3 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Query\Grammars\Grammar.php(203): Illuminate\Database\Query\Grammars\Grammar->whereNull(Object(Illuminate\Database\Query\Builder), Array)
+#4 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Query\Grammars\Grammar.php(66): Illuminate\Database\Query\Grammars\Grammar->compileWheres(Object(Illuminate\Database\Query\Builder), Array)
+#5 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Query\Grammars\Grammar.php(44): Illuminate\Database\Query\Grammars\Grammar->compileComponents(Object(Illuminate\Database\Query\Builder))
+#6 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(940): Illuminate\Database\Query\Grammars\Grammar->compileSelect(Object(Illuminate\Database\Query\Builder))
+#7 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1028): Illuminate\Database\Query\Builder->toSql()
+#8 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1018): Illuminate\Database\Query\Builder->runSelect()
+#9 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(1005): Illuminate\Database\Query\Builder->getFresh(Array)
+#10 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(441): Illuminate\Database\Query\Builder->get(Array)
+#11 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(132): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#12 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php(108): Illuminate\Database\Eloquent\Builder->get(Array)
+#13 E:\development\Ampps\www\ds-dwm-instagram\app\controllers\Main\UserRegisterController.php(269): Illuminate\Database\Eloquent\Builder->first()
+#14 [internal function]: Main\UserRegisterController->authenticate()
+#15 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#16 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('authenticate', Array)
+#17 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'authenticate', Array)
+#18 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#19 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(80): call_user_func_array(Object(Closure), Array)
+#20 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Route.php(47): Illuminate\Routing\Route->callCallable()
+#21 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Routing\Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#22 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#23 E:\development\Ampps\www\ds-dwm-instagram\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#24 E:\development\Ampps\www\ds-dwm-instagram\index.php(49): Illuminate\Foundation\Application->run()
+#25 {main} [] []

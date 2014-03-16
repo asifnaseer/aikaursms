@@ -1,0 +1,13 @@
+<div class="color-panel hidden-phone">
+            <div class="color-mode-icons icon-color"></div>
+            <div class="color-mode-icons icon-color-close"></div>
+            <div class="color-mode">
+                    <p>THEME COLOR</p>
+                    <ul class="inline">
+                            <li class="color-blue current color-default" data-style="blue"></li>
+                            <li class="color-red" data-style="red"></li>
+                            <li class="color-green" data-style="green"></li>
+                            <li class="color-orange" data-style="orange"></li>
+                    </ul>
+            </div>
+    </div>

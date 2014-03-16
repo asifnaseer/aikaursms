@@ -1,0 +1,102 @@
+
+<?php $__env->startSection('form-starter'); ?>
+    <?php echo Form::open(array('url' => $action_url,'id'=>'video_add_form', 'class' => 'form-horizontal')); ?>
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('form-stoper'); ?>
+    <?php echo Form::close(); ?>
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('modal-header-content'); ?>
+    <h3><?php echo $heading; ?></h3>
+<?php $__env->stopSection(); ?>
+
+
+<?php $__env->startSection('modal-body-content'); ?>
+    <div class="row-fluid"> 
+            <div class="tabbable tabbable-custom ">
+                <!-- Only required for left/right tabs -->
+                <ul class="nav nav-tabs ">
+                        <li class="active"><a data-toggle="tab" href="#tab_event_info">Video Information</a></li>
+                </ul>
+                <div class="tab-content">
+                        <div class="alert alert-error hide">
+                                <button class="close" data-dismiss="alert"></button>
+                                You have some form errors. Please check each form tab for correction.
+                        </div>
+                        <div class="alert alert-success hide">
+                                <button class="close" data-dismiss="alert"></button>
+                                Your form posted successful!
+                        </div>
+                        <div id="tab_event_info" class="tab-pane active" style="min-height: 124px;">
+                                <div class="control-group">
+                                        <?php echo Form::label('video_name', 'Video Name', array('class' => 'control-label')); ?>
+                                        <div class="controls">
+                                                <?php echo Form::text('video_name', $data['video_name'], array('id' => 'video_name', 'placeholder' => 'Video Name', 'class' => 'm-wrap medium' )); ?>
+                                        </div>
+                                </div>
+
+                                <div class="control-group">
+                                        <?php echo Form::label('video_description', 'Video Description', array('class' => 'control-label')); ?>
+                                        <div class="controls">
+                                                <?php echo Form::text('video_description', $data['video_description'], array('id' => 'video_description', 'placeholder' => 'Description', 'class' => 'm-wrap medium' )); ?>
+                                        </div>
+                                </div>
+                                
+                                <div class="control-group">
+                                        <?php echo Form::label('video_url', 'Video Url', array('class' => 'control-label')); ?>
+                                        <div class="controls">
+                                                <?php echo Form::text('video_url', $data['video_url'], array('id' => 'video_url', 'placeholder' => 'Video Url', 'class' => 'm-wrap medium' )); ?>
+                                        </div>
+                                </div>
+                        </div> 
+                </div>
+            </div>
+            <div class="tab-pane active" id="portlet_tab1">
+                    
+                    
+ 
+            </div>                    
+    </div>
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('modal-footer-content'); ?>
+     <?php if($mode == "edit"): ?><?php echo Form::hidden('video_id', $video_id, array('id' => 'event_id' )); ?> <?php endif; ?>
+     <?php echo Form::hidden('mode', $mode, array('id' => 'mode' )); ?>
+     <?php echo Form::button('<i class=\'icon-ok\'></i> Save', array('name' => 'submit', 'id'=>'submit', 'type'=>'submit', 'class'=>'btn blue')); ?>
+<?php $__env->stopSection(); ?>
+
+<script type="text/javascript">
+    $(document).ready(function(){     
+        $("#submit").click(function(e){
+            e.preventDefault();
+            addAction(); 
+        });
+    });
+    
+    var form    = $('#video_add_form');
+    var error   = $('.alert-error', form);
+    var success = $('.alert-success', form);
+    
+    function addAction(){
+                              
+            var url  = form.attr('action');
+            var data = form.serialize();
+   
+            $.post(
+                url, data, 
+                function(data){ 
+                    console.log(data);
+                    obj     =   $.parseJSON(data);
+                    if(obj.status == "error"){
+                        error.show();
+                        showValidationErrors(obj.errors);
+                    }else{
+                         location.reload();
+                    }
+                }
+            );
+    }
+    
+</script>
+<?php echo $__env->make('layouts/metronic/backend/modal-responsive', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

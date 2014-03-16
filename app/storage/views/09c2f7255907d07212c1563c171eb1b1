@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+    <?php /*  BEGIN HEAD  */ ?>
+    <head>
+        <meta charset="utf-8" />
+        <title>
+        <?php $__env->startSection('title'); ?>
+            Automates | 
+        <?php echo $__env->yieldSection(); ?>
+        </title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="description" />
+        <meta content="" name="author" />
+
+        <?php $__env->startSection('styles'); ?>
+            <?php /*  BEGIN GLOBAL MANDATORY STYLES  */ ?>
+            <link href="<?php echo asset('public/layouts/metronic/frontend/assets/plugins/bootstrap/css/bootstrap.min.css'); ?>" rel="stylesheet" type="text/css"/>
+            <link href="<?php echo asset('public/layouts/metronic/frontend/assets/plugins/bootstrap/css/bootstrap-responsive.min.css'); ?>" rel="stylesheet" type="text/css"/>
+            <link href="<?php echo asset('public/layouts/metronic/frontend/assets/css/reset.css'); ?>" rel="stylesheet" type="text/css"/>
+            <link href="<?php echo asset('public/layouts/metronic/frontend/assets/css/style-metro.css'); ?>" rel="stylesheet" type="text/css"/>
+            <link href="<?php echo asset('public/layouts/metronic/frontend/assets/css/style.css'); ?>" rel="stylesheet" type="text/css"/>
+            <link href="<?php echo asset('public/layouts/metronic/frontend/assets/plugins/fancybox/source/jquery.fancybox.css'); ?>" rel="stylesheet" />               
+            <link href="<?php echo asset('public/layouts/metronic/frontend/assets/plugins/font-awesome/css/font-awesome.min.css'); ?>" rel="stylesheet" type="text/css"/>
+            <link href="<?php echo asset('public/layouts/metronic/frontend/assets/plugins/bxslider/jquery.bxslider.css'); ?>" rel="stylesheet" />          
+            <link href="<?php echo asset('public/layouts/metronic/frontend/assets/plugins/revolution_slider/css/rs-style.css'); ?>" rel="stylesheet" media="screen">
+            <link href="<?php echo asset('public/layouts/metronic/frontend/assets/plugins/revolution_slider/rs-plugin/css/settings.css'); ?>" rel="stylesheet" media="screen">                
+            <link href="<?php echo asset('public/layouts/metronic/frontend/assets/css/style-responsive.css'); ?>" rel="stylesheet" type="text/css"/>
+            <?php /*  END CORE PLUGINS  */ ?>
+            <link href="<?php echo asset('public/layouts/metronic/frontend/assets/css/themes/blue.css'); ?>" rel="stylesheet" type="text/css" id="style_color"/>
+        <?php echo $__env->yieldSection(); ?>
+            <link rel="shortcut icon" href="favicon.ico" />
+    </head>
+    <?php /*  END HEAD  */ ?>
+
+
+    <?php /*  BEGIN BODY  */ ?>
+    <body>
+
+        <?php echo $__env->make('layouts.metronic.frontend.common.style-customizer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+        <?php echo $__env->make('layouts.metronic.frontend.common.header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+        <?php echo $__env->make('layouts.metronic.frontend.common.slider-main-home', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+        <?php /*  Page Content  */ ?>  
+        <div class="container">
+            <?php echo $__env->yieldContent('content'); ?>
+        </div>
+        
+
+        <?php echo $__env->make('layouts.metronic.frontend.common.footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+        <?php echo $__env->make('layouts.metronic.frontend.common.copy-right', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+
+
+
+        <?php $__env->startSection('script'); ?>
+        <?php /*  BEGIN CORE PLUGINS  */ ?>
+        <script type="text/javascript" src="<?php echo asset('public/layouts/metronic/frontend/assets/plugins/jquery-1.10.1.min.js'); ?>" ></script>
+        <script type="text/javascript" src="<?php echo asset('public/layouts/metronic/frontend/assets/plugins/jquery-migrate-1.2.1.min.js'); ?>" ></script>
+        <script type="text/javascript" src="<?php echo asset('public/layouts/metronic/frontend/assets/plugins/bootstrap/js/bootstrap.min.js'); ?>" ></script>
+        <script type="text/javascript" src="<?php echo asset('public/layouts/metronic/frontend/assets/plugins/back-to-top.js'); ?>"></script>    
+        <script type="text/javascript" src="<?php echo asset('public/layouts/metronic/frontend/assets/plugins/bxslider/jquery.bxslider.js'); ?>"></script>
+        <script type="text/javascript" src="<?php echo asset('public/layouts/metronic/frontend/assets/plugins/fancybox/source/jquery.fancybox.pack.js'); ?>"></script>    
+        <script type="text/javascript" src="<?php echo asset('public/layouts/metronic/frontend/assets/plugins/hover-dropdown.js'); ?>"></script>
+        <script type="text/javascript" src="<?php echo asset('public/layouts/metronic/frontend/assets/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.plugins.min.js'); ?>"></script>
+        <script type="text/javascript" src="<?php echo asset('public/layouts/metronic/frontend/assets/plugins/revolution_slider/rs-plugin/js/jquery.themepunch.revolution.min.js'); ?>"></script> 
+        <!--[if lt IE 9]>
+        <script src="<?php echo asset('public/layouts/metronic/frontend/assets/plugins/respond.min.js'); ?>"></script>  
+        <![endif]-->   
+        <?php /*  END CORE PLUGINS  */ ?> 
+        <?php echo $__env->yieldSection(); ?>
+
+
+
+    </body>
+    <!-- END BODY -->
+</html>

@@ -1,0 +1,4 @@
+[2013-12-17 15:07:27] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Function name must be a string' in C:\wamp\www\ds-dwm-aldi\app\filters.php:56
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []

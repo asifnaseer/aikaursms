@@ -1,0 +1,11 @@
+<div class="row-fluid breadcrumbs margin-bottom-40">
+    <div class="container">
+        <div class="span12">
+            <ul class=" breadcrumb">
+                <li><a href="<?php echo url('/'); ?>">Home</a> <span class="divider">/</span></li>
+                <li><a href="">Features</a> <span class="divider">/</span></li>
+                <li class="active">Forms</li>
+            </ul>
+        </div>
+    </div>
+</div>

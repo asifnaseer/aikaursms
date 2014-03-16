@@ -1,0 +1,60 @@
+<div class="front-header">
+        <div class="container">
+            <div class="navbar">
+                <div class="navbar-inner">
+				
+                    <!-- BEGIN LOGO (you can use logo image instead of text)-->
+                    <a class="brand logo-v1" href="<?php echo url('/'); ?>">
+                        <img src="<?php echo asset('public/layouts/metronic/frontend/assets/img/logo_blue.png'); ?>" id="logoimg" alt="">
+                    </a>
+                    <!-- END LOGO -->
+
+                    <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <!-- END RESPONSIVE MENU TOGGLER -->
+
+                    <!-- BEGIN TOP NAVIGATION MENU -->
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <?php /*  Show a logged in Menu for logged in user  */ ?>
+                            <?php if( Session::get('logged_in') ): ?>
+                                <li>
+                                    <a href="<?php echo url('/user/new-board'); ?>">
+                                        Create New Board
+                                    </a>
+                                </li>    
+                                <li>
+                                    <a href="<?php echo url('/user/manage-board'); ?>">
+                                        Manage Boards	
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="<?php echo url('/user/dashboard'); ?>">
+                                        <?php echo Session::get('first_name'); ?> <?php echo Session::get('last_name'); ?>
+                                    </a>
+                                </li>                                
+                            <?php else: ?>
+                                <li><a href="<?php echo url('/user/register'); ?>">Register</a></li>
+                                <li><a href="<?php echo url('/user/login'); ?>">Login</a></li>
+                            <?php endif; ?>
+                            
+                        </ul>
+                        <div class="search-box">
+                            <div class="input-append">
+                                <form>
+                                    <input style="background:#fff;" class="m-wrap" type="text" placeholder="Search" />
+                                    <button type="submit" class="btn theme-btn">Go</button>
+                                </form>
+                            </div>
+                        </div>                            
+                    </div>
+                    <!-- BEGIN TOP NAVIGATION MENU -->
+                </div>
+            </div>
+        </div>                   
+    </div>

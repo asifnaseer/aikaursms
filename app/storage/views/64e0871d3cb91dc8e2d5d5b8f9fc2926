@@ -1,0 +1,35 @@
+<div class="row-fluid">
+        <div class="span12">
+
+                
+
+                <!-- BEGIN PAGE TITLE & BREADCRUMB-->
+                <h3 class="page-title">
+                        <?php echo $content_main_heading; ?> <small><?php echo $content_help_line; ?></small>
+                </h3>
+                
+                <ul class="breadcrumb">
+                        <?php foreach($breadcrumb['data'] as $bLink): ?>
+                            <li>
+                                    <?php if($bLink['icon'] != ''): ?>
+                                        <i class="icon-<?php echo $bLink['icon']; ?>"></i>
+                                    <?php endif; ?>
+
+                                    <a href="<?php if($bLink['link'] != ''): ?> <?php echo $bLink['link']; ?> <?php endif; ?>">
+                                        <?php if($bLink['lable'] != ''): ?> <?php echo $bLink['lable']; ?> <?php endif; ?>
+                                    </a>
+
+                                    <?php if(isset($bLink['last']) && !$bLink['last']): ?> 
+                                        <i class="icon-angle-right"></i>
+                                    <?php endif; ?>
+
+                            </li>
+                        <?php endforeach; ?>
+                </ul>
+                <!-- END PAGE TITLE & BREADCRUMB-->
+                
+               
+                <!--  Notification -->
+                <?php echo $__env->make('layouts.metronic.front.notifications', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+        </div>
+</div>

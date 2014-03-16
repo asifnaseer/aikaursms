@@ -1,0 +1,262 @@
+
+
+
+
+<?php /*  Page Title  */ ?>
+<?php $__env->startSection('title'); ?>
+    @parent
+    <?php echo $page_title; ?>
+<?php $__env->stopSection(); ?>
+
+
+
+
+
+<?php /*  Page Styles */ ?>
+<?php $__env->startSection('styles'); ?>
+    @parent
+    <?php /*  BEGIN PAGE LEVEL STYLES  */ ?> 
+    
+    <link href="<?php echo asset('public/layouts/metronic/front/assets/plugins/select2/select2_metro.css'); ?>" rel="stylesheet" type="text/css"/>
+    <link href="<?php echo asset('public/layouts/metronic/front/assets/plugins/data-tables/DT_bootstrap.css'); ?>" rel="stylesheet" type="text/css"/>
+    
+    <link href="<?php echo asset('public/layouts/metronic/front/assets/plugins/jquery-ui/jquery-ui-1.10.1.custom.min.css'); ?>" rel="stylesheet" type="text/css"/>
+    <link href="<?php echo asset('public/layouts/metronic/front/assets/plugins/bootstrap-modal/css/bootstrap-modal.css'); ?>" rel="stylesheet" type="text/css"/>
+    <link href="<?php echo asset('public/layouts/metronic/front/assets/css/pages/pricing-tables.css'); ?>" rel="stylesheet" type="text/css"/>
+    <link href="<?php echo asset('public/layouts/metronic/front/assets/css/pages/pricing-tables.css'); ?>" rel="stylesheet" type="text/css"/>
+    <link href="<?php echo asset('public/layouts/metronic/front/assets/plugins/bootstrap-switch/static/stylesheets/bootstrap-switch-metro.css'); ?>" rel="stylesheet" type="text/css"/>
+    <link href="<?php echo asset('public/layouts/metronic/front/assets/plugins/bootstrap-switch/static/stylesheets/bootstrap-switch-metro.css'); ?>" rel="stylesheet" type="text/css"/>
+
+    <link rel="stylesheet" type="text/css" href="<?php echo asset('public/layouts/metronic/front/assets/plugins/bootstrap-colorpicker/css/colorpicker.css'); ?>" />
+
+    <link href="<?php echo asset('public/layouts/metronic/front/assets/plugins/dropzone/css/dropzone.css'); ?>" rel="stylesheet"/>
+    <link href="<?php echo asset('public/layouts/metronic/front/assets/plugins/jquery-multi-select/css/multi-select-metro.css'); ?>" rel="stylesheet" type="text/css" media="screen"/>
+
+    <?php /*  END PAGE LEVEL STYLES  */ ?>
+<?php $__env->stopSection(); ?>
+
+
+
+
+
+<?php /*  Page Content  */ ?>
+<?php $__env->startSection('content'); ?> 
+   
+    <?php /*  BEGIN PAGE CONTAINER */ ?>
+  
+    <div id="myModal" class="modal fade" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" style="text-align: center">
+                    <h3>Much Secure, Very Options </h3>
+                </div>
+                <div class="modal-body" >
+                    <div style="height:200px">
+                      Boards are private by default. You'll need the unlock code when visiting the board on the device you are going to show it on. 
+<br> <br>
+If you've subscribed to a higher level plan you can make the board public to allow more people to view it and assign your own unlock code. Or, if you're really fancy - you can open it up to the public completely without an unlock code. Simply set the board to public and remove the unlock code from the field. It's up to you but don't worry - if you change your mind you can always make it private again!
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn green" data-dismiss="modal" aria-hidden="true">Good Doge</button>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <div id="confim_customization" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-header">
+          <h3 id="myModalLabel">Done Securing?</h3>
+        </div>
+        <div class="modal-body" >
+           <p>
+               We like to double check and make sure you’re really finished checking out all of the cool options. If so – BRILLIANT!
+           </p>
+
+        </div>
+        <div class="modal-footer">
+          <button class="btn red" data-dismiss="modal" aria-hidden="true">Opps! j/k</button>
+          <button class="btn green btn-primary" id="i_m_done">I'm done</button>
+        </div>
+    </div>      
+    <div class="container-fluid">
+        
+            <!-- BEGIN PAGE HEADER heaing, breadcrumbs etc -->
+            <?php echo $__env->make('layouts.metronic.front.common.content-header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+            <!-- END PAGE HEADER-->
+            <!-- BEGIN PAGE CONTENT-->
+
+            <div class="row-fluid">
+                    <div class="portlet-body">
+                        <p>
+                            We believe in control. Whether you're celebrating or remembering- this is your show. So we provide you with options to make sure it stays that way.
+                            
+                        </p>
+                        <div class="row-fluid">
+                            <div class="span12">
+                                <?php echo Form::open(array('id'=>'security_form', 'class' => 'horizontal-form')); ?>
+                                <div class="tabbable tabbable-custom boxless">
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a data-toggle="tab" href="#tab_1">Privacy</a></li>
+                                        <li><a data-toggle="tab" href="#tab_2">Security</a></li>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div id="tab_1" class="tab-pane active">
+                                            <div class="portlet box blue">
+                                                <div class="portlet-title">
+                                                    <div class="caption"><i class="icon-reorder"></i>Privacy</div>
+                                                </div>
+                                                <div class="portlet-body form">
+                                                    <!-- BEGIN FORM-->
+                                                    <div class="row-fluid" >
+                                                        Need some splaining'? <a href="#myModal" data-toggle="modal">CLICK HERE</a>
+                                                    </div>
+                                                    <hr>
+                                                    
+                                                        
+                                                   
+                                                    <div class="row-fluid">
+   
+                                                            <div class="span2 ">
+                                                                <div class="control-group">
+                                                                    <label class="control-label" >Board Private</label>
+                                                                    <div class="controls">
+                                                                        <div class="switch">
+                                                                            <input type="checkbox" name="board_private" id="board_private" checked class="toggle"/>
+									</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        
+                                                            <div class="span2 ">
+                                                                <div class="control-group">
+                                                                    <label class="control-label" >Unlock Code</label>
+                                                                    <div class="controls">
+                                                                        
+                                                                        <input type="text" class="m-wrap small" name="unlock_code" id="unlock_code" value="" placeholder="AbCdEfG12345" />
+                                                                                
+                                                                       
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                        </div>      
+                                                        <input type="hidden" name="board_id" value="<?php echo $board_id; ?>"/>
+                                                    
+                                                    
+                                                    <!-- END FORM--> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="tab_2" class="tab-pane">
+                                            <div class="portlet box blue">
+                                                <div class="portlet-title">
+                                                    <div class="caption"><i class="icon-reorder"></i>Security</div>
+                                                </div>
+                                                <div class="portlet-body form">
+                                                    <!-- BEGIN FORM-->
+                                                   
+                                                        <div class="row-fluid" >
+                                                            Need to keep someone from posting to your board that follows you? You may do that now. If you find user that are 
+                                                            problems while your board is live you can remove them at the time- even if they don't follow you.
+                                                        </div>     
+                                                    <div class="row-fluid">
+                                                        <div class="span2">
+                                                            <strong>Your Followers</strong>
+                                                        </div>
+                                                        <div class="span4">
+                                                            <div class="row-fluid">
+                                                                <div class="span1">&nbsp;</div>
+                                                                <div class="span3"><strong>Banned List</strong></div>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                    <div class="row-fluid">
+                                                        <div class="control-group">
+                                                            <div class="controls">
+                                                                    <select multiple="multiple" name="followers[]" id="followers">
+                                                                    <?php foreach ($followers as $follower): ?>
+                                                                         <option value="<?php echo $follower->id; ?>">
+                                                                             <?php if ($follower->full_name == ""): ?> 
+                                                                                <?php echo $follower->username; ?>
+                                                                             <?php else: ?>   
+                                                                                <?php echo $follower->full_name; ?>
+                                                                             <?php endif; ?>
+                                                                         </option>
+                                                                    <?php endforeach; ?>
+                                                                    </select>
+                                                            </div>
+							</div>                                                    
+                                                    </div>
+                                                   
+                                                    <!-- END FORM-->                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+				</div>
+                                <?php echo Form::close(); ?>
+                            </div>
+                            
+                            <div class="row-fluid">
+                                <div class="pull-right">
+                                        <button type="button" class="btn red">Cancel</button>
+                                        <button href="#confim_customization" data-toggle="modal" type="button" class="btn blue" >Next</button>
+                                </div>
+                            </div> 
+			</div>        
+                        
+                    </div> 
+
+            </div>
+
+            <!-- END PAGE CONTENT-->
+    </div>
+    <?php /*  END PAGE CONTAINER  */ ?> 
+<?php $__env->stopSection(); ?>
+
+
+
+
+
+<?php $__env->startSection('script'); ?>
+    @parent
+   
+    <script src="<?php echo asset('public/layouts/metronic/front/assets/plugins/select2/select2.min.js'); ?>" type="text/javascript"></script>
+    <script src="<?php echo asset('public/layouts/metronic/front/assets/plugins/data-tables/jquery.dataTables.js'); ?>" type="text/javascript"></script>
+    <script src="<?php echo asset('public/layouts/metronic/front/assets/plugins/data-tables/DT_bootstrap.js'); ?>" type="text/javascript"></script>
+    <!-- Enhanced Model Pop-ups -->
+    <script src="<?php echo asset('public/layouts/metronic/front/assets/plugins/bootstrap-modal/js/bootstrap-modal.js'); ?>" type="text/javascript"></script>
+    <script src="<?php echo asset('public/layouts/metronic/front/assets/plugins/bootstrap-modal/js/bootstrap-modalmanager.js'); ?>" type="text/javascript"></script>
+    <script src="<?php echo asset('public/layouts/metronic/front/assets/scripts/app.js'); ?>"></script>
+    <script src="<?php echo asset('public/layouts/metronic/front/assets/plugins/bootstrap-switch/static/js/bootstrap-switch.js'); ?>"></script>
+    <script type="text/javascript" src="<?php echo asset('public/layouts/metronic/front/assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js'); ?>"></script>  
+    <script src="<?php echo asset('public/layouts/metronic/front/assets/plugins/dropzone/dropzone.js'); ?>"></script>
+    <script src="<?php echo asset('public/layouts/metronic/front/assets/plugins/jquery-ui/jquery-ui-1.10.1.custom.min.js'); ?>"></script>
+    <script src="<?php echo asset('public/layouts/metronic/front/assets/plugins/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js'); ?>"></script>
+    <script type="text/javascript" src="<?php echo asset('public/layouts/metronic/front/assets/plugins/jquery-inputmask/jquery.inputmask.bundle.min.js'); ?>"></script>
+    
+    <script type="text/javascript" src="<?php echo asset('public/layouts/metronic/front/assets/plugins/jquery-multi-select/js/jquery.multi-select.js'); ?>" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            App.init();
+            $('#followers').multiSelect()
+            $('#i_m_done').bind('click',function(event){
+                event.preventDefault();
+                var form_data = $('#security_form').serialize();
+                $.post("<?php echo URL::Route('user.add.board.setting'); ?>",form_data,function(data){
+                    if(data.success == true){
+                        toastr.success('<p>Preset added successfully!</p>', 'Success!');    
+                        location = "<?php echo url('/user/new-board/5/'.$id.'/'.$board_id); ?>";
+                    }
+                });
+            });
+
+        });
+    </script>
+<?php $__env->stopSection(); ?>
+
+    
+
+<?php echo $__env->make('layouts/metronic/front/default', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
